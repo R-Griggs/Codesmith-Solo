@@ -1,0 +1,22 @@
+#executionContext {
+  grid-area: exCon;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 0 0 6px;
+  background-color: lightblue;
+  border: 2px solid steelblue;
+  border-radius: 8px;
+}
+
+#exConTitle {
+  grid-area: exConTitle;
+}
+
+#code {
+  background-color: aliceblue;
+  border: none;
+  border-radius: 7px;
+  height: 95%;
+  width: 98%;
+}

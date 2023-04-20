@@ -1,0 +1,42 @@
+.app {
+  display: grid;
+  grid-template-areas: 
+  "stackTitle exConTitle exConTitle exConTitle exConTitle"
+  "stack exCon exCon exCon exCon"
+  "stack exCon exCon exCon exCon"
+  "stack exCon exCon exCon exCon"
+  "stack exCon exCon exCon exCon"
+  "stack exCon exCon exCon exCon"
+  "stack exCon exCon exCon exCon"
+  "stack exCon exCon exCon exCon"
+  "stack exCon exCon exCon exCon"
+  "stack exCon exCon exCon exCon"
+  "stack exCon exCon exCon exCon"
+  "fileTitle microTitle microTitle microTitle microTitle"
+  "selectFile micro micro micro micro"
+  "selectFile micro micro micro micro"
+  "runTitle taskTitle taskTitle taskTitle taskTitle"
+  "run task task task task"
+  "run task task task task";
+  height: 80vh;
+  width: 98vw;
+  background-color: aliceblue;
+  border: 1px solid black;
+  z-index: 0;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  padding: 5px;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.5em;
+  text-decoration: underline;
+}

@@ -1,0 +1,29 @@
+.btn {
+  
+}
+
+#selectFileContainer {
+  grid-area: selectFile;
+  border: 2px solid black;
+}
+
+#selectFileTitle {
+  grid-area: fileTitle;
+}
+
+#selectFileBtn {
+
+}
+
+#runContainer {
+  grid-area: run;
+  border: 2px solid black;
+}
+
+#runBtnTitle {
+  grid-area: runTitle;
+}
+
+#runBtn {
+
+}
